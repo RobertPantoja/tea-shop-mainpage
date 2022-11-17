@@ -1,0 +1,150 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.nav {
+  display: inline-flex;
+  text-decoration: underline;
+  text-transform: capitalize;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 62px 10px;
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  background-image: url("img/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.hero-text h4,
+.hero-text h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 1000px;
+  margin: 25px 10px;
+}
+
+.gallery-header {
+  text-align: center;
+  width: 100%;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container {
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 0px;
+  margin: 10px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+
+.locations {
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 10px;
+  background-image: url("img/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations h2 {
+  margin: 15px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  text-transform: capitalize;
+  line-height: 40px;
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+  text-align: center;
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h6 {
+  margin: 20px;
+}
